@@ -1,0 +1,115 @@
+body{
+    background-color: #c3c2c0 !important;
+    min-width: 300px;
+}
+@media screen and (min-width: 769px) {
+  footer {
+    font-size: 12pt !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    font-size: 8pt !important;
+  }
+}
+.mingen{
+    min-width: 360px !important;
+}
+.pyaz {
+    text-align: justify;
+    font-size: 14pt;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.maxgen{
+    max-width: 380px !important;
+}
+.carousel-indicators li {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 100% !important;
+}
+.carousel-indicators {
+    right: 2% !important;
+    left: inherit !important;
+    margin: 0 !important;
+}
+.carousel-caption {
+    text-align: left !important;
+    left: 2% !important;
+    bottom: 0 !important;
+    right: inherit !important;
+    padding: 0 !important;
+}
+.üst {
+    text-align: center;
+    background-color: #080f0f;
+    height: 200px;
+}
+.navbar {
+    height: 50px;
+    background-color: #080f0f;
+}
+.haberk {
+    background-color: #4a525a;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+h1 {
+    color: #ee6352;
+}
+.yazılar{
+    background-color: #4a525a;
+    height: 200px;
+    padding: 10px;
+    color: white;
+}
+h2{
+    color: #ee6352;
+}
+h3{
+    color: #ee6352;
+}
+h4{
+    color: #ee6352;
+}
+h5{
+    font-weight: normal !important;
+    padding: 0 5px;
+}
+.popüler{
+    background: #4a525a;
+    height: 100%;
+    position: sticky !important;
+    top: 60px;
+}
+.popk{
+    background-color: #7a7d7d;
+    padding: 10px !important;
+    color: white;
+}
+img{
+    object-fit: cover;
+}
+.yükle{
+    background-color: #ee6352 !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+a:link { color: white; }
+a:visited { color: white; }
+a:hover { color: white !important; }
+a:active { color: white; }
+
+a.nav-link{
+    font-size: 14pt;
+}
+a:link.nav-link     {   color: #ee6352; }
+a:visited.nav-link  {   color: #ee6352; }
+a:hover.nav-link    {   color: red !important;     }
+a:active.nav-link   {   color: red;     }
